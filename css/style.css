@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jquery-nav{
+    float: right;
+    display: none;
+    margin-right: 10px;
+}
+.jquery-nav ul{
+    list-style-type: none;
+}
+.jquery-nav ul li a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 15px;
+}
+.nav-bar{
+    display: flex;
+    background-color: #e3c714;
+}
+.title{
+    font-family: 'Dancing Script', cursive;
+    font-size:30px ;
+    min-width: 100px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin-top:15px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    margin-right:20px ;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: none;
+}
+.icons{
+    display: none;
+    margin: 15px;
+    font-size: 20px;
+}
+.background-img img{
+    max-width: 100%;
+    z-index: auto;
+    height: 600px;
+    flex-wrap: wrap;
+}
+.col1{
+    display: flex;
+    justify-content: center;
+    text-justify: ;
+    min-width: 50px;
+}
+.small-container{
+    display: inline-block;
+    flex: 1;
+    text-align: center;
+    flex-basis: 50%;
+}
+.address{
+    font-family:courier,arial,helvetica;
+}
+/*-------------media screen----------------*/
+@media(max-width:800px){
+    .background-img img{
+        max-width: auto;
+        height: auto;
+    }
+    .title{
+        font-size: 23px;
+        margin: auto;
+    }
+    nav ul li{
+        display: none;
+    }
+    .icons{
+        display: flex;
+    }
+}
+
+
+
+/*----------------------*/
+@media(max-width:600px){
+    .title{
+        font-size: 20px;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+
+}
